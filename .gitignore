@@ -1,0 +1,17 @@
+# CMake build folders
+cmake-build-debug/
+cmake-build-release/
+build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
