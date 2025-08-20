@@ -26,7 +26,7 @@ int main() {
         cin>>str;
 
         if (!palindrom(str)) {
-            if (!flag || str.length() < najmal.length()) {
+            if (!flag || str.length() < najmal.length() || str.length() == najmal.length()&& str > najmal) {
                 najmal = str;
                 flag = true;
             }
